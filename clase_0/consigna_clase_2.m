@@ -28,6 +28,8 @@ Sb = cos(4*t);
 
 [Sum, Product] = CALC(Sa, Sb);
 
+% Otra forma
+% plot(t,Sa,'b',t,Sb,'r',t,calc(Sa,Sb),'g',t,calc2(Sa,Sb),'m')
 plot(t,Sa,'b',t,Sb,'r',t,Sum,'g',t,Product,'m')
 xlabel('t')
 ylabel('f(t)')
