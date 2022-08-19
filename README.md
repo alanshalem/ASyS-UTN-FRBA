@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><img src="https://raw.githubusercontent.com/alanshalem/ASyS-UTN-FRBA/main/assets/img/banner.png?token=GHSAT0AAAAAABXO55ZEVQ2MGNSHCDXIN7GGYX7XKMA">ASyS UTN FRBA</h1>
+    <h1 align="center"><img src="https://raw.githubusercontent.com/alanshalem/ASyS-UTN-FRBA/main/assets/img/banner.png?token=GHSAT0AAAAAABXO55ZFT6ZEME5ZFEHYAPWGYX72IUQ">ASyS UTN FRBA</h1>
     <p align="center">Cursada Analisis de Señales y Sistemas - UTN FRBA - 2022 (NO OFICIAL)</p>
     <br>
 </p>
