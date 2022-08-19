@@ -3,11 +3,11 @@
     <p align="center">Cursada Analisis de Señales y Sistemas - UTN FRBA - 2022 (NO OFICIAL)</p>
     <br>
 </p>
-<hr>
 <div style="margin-left: auto;
             margin-right: auto;
             width: 50%">
-<h2>Contenido:</h2>
+
+## Contenido:
 
 | **Item** | **Clase**                                                                                                 |
 | :------: | --------------------------------------------------------------------------------------------------------- |
