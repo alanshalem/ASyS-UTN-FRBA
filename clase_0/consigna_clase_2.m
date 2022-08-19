@@ -13,17 +13,22 @@
 % 5. Graficar en una misma ventana: un eje con Sa en azul, otro con Sb en rojo, un tercero con el resultado de la suma (en verde, punteado) y un cuarto con el resultado del producto (en magenta, a rayas). Los ejes deberan estar ajustados, con sus etiquetas correspondientes y una leyenda identificando cada relacion funcional
 %
 % *************************************************************************
+%
 % SOLUCION
+%
 % *************************************************************************
 
 t = 0:0.001:4*pi;
 Sa = sin(2*t);
 Sb = cos(4*t);
 
-calc = @(Sa,Sb) Sa+Sb;
-calc2 = @(Sa,Sb) Sa.*Sb;
+% Otra forma
+%calc = @(Sa,Sb) Sa+Sb;
+%calc2 = @(Sa,Sb) Sa.*Sb;
 
-plot(t,Sa,'b',t,Sb,'r',t,calc(Sa,Sb),'g',t,calc2(Sa,Sb),'m')
+[Sum, Product] = CALC(Sa, Sb);
+
+plot(t,Sa,'b',t,Sb,'r',t,Sum,'g',t,Product,'m')
 xlabel('t')
 ylabel('f(t)')
 
