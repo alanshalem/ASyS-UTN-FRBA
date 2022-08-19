@@ -9,19 +9,19 @@
 
 ## Contenido:
 
-| **Item** | **Clase**                                                                                                 |
-| :------: | --------------------------------------------------------------------------------------------------------- |
-|    1     | [Introduccion a MatLab](https://github.com/alanshalem/ASyS-UTN-FRBA/tree/main/clase_0)                    |
-|    2     | [Señales continuas y discretas - 1° Parte](https://github.com/alanshalem/ASyS-UTN-FRBA/tree/main/clase_1) |
-|    3     |                                                                                                           |
-|    4     |                                                                                                           |
-|    5     |                                                                                                           |
-|    6     |                                                                                                           |
-|    7     |                                                                                                           |
-|    8     |                                                                                                           |
-|    9     |                                                                                                           |
-|    10    |                                                                                                           |
-|    11    |                                                                                                           |
-|    12    |                                                                                                           |
+| **Item** | **Clase**                                                                                                        |
+| :------: | ---------------------------------------------------------------------------------------------------------------- |
+|    1     | [Introduccion a MatLab](https://github.com/alanshalem/ASyS-UTN-FRBA/tree/main/clases/clase_0)                    |
+|    2     | [Señales continuas y discretas - 1° Parte](https://github.com/alanshalem/ASyS-UTN-FRBA/tree/main/clases/clase_1) |
+|    3     |                                                                                                                  |
+|    4     |                                                                                                                  |
+|    5     |                                                                                                                  |
+|    6     |                                                                                                                  |
+|    7     |                                                                                                                  |
+|    8     |                                                                                                                  |
+|    9     |                                                                                                                  |
+|    10    |                                                                                                                  |
+|    11    |                                                                                                                  |
+|    12    |                                                                                                                  |
 
 </div>
