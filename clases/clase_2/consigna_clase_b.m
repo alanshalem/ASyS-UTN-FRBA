@@ -1,7 +1,6 @@
-%% Consigna
-%## Consigna de la clase #B (10 minutos)
+% Consigna de la clase #B (10 minutos)
 %
-%1. Determinar wo, fo y To, (Oo, Fo y No, en el caso discreto de las siguientes funciones:  
+% 1. Determinar wo, fo y To, (Oo, Fo y No, en el caso discreto de las siguientes funciones:  
 %
 % a) x(t)=sen(2pi260t + pi/4)+4cos(2pi440t)  
 %
@@ -15,21 +14,16 @@
 %% a)
 fs=8000;
 dt=1/fs;
-t=0:dt:1;
-
+t=0:dt:1/10;
 x_t = sin(2*pi*260*t)+cos(2*pi*440*t); % Suma
 % x_t = sin(2*pi*260*t) % Tono 260Hz
 % x_t = cos(2*pi*440*t) % Tono 440Hz
 
-xlim([0 0.1])
-sound(x_t, fs)
-
 %% b)
-dn=1/10;
-n=0:dn:1;
+dn=1;
+n=0:dn:100;
 
-x_n = sen(pi/3*n)+cos(pi/6*n);
-
+x_n = sin(pi/3*n)+cos(pi/6*n);
 
 %% Grafico
 sgtitle('Consigna de la clase #B')
@@ -41,6 +35,8 @@ plot(t, x_t, 'linewidth', 2);
 title('x(t)=sin(2*pi*260*t)+cos(2*pi*440*t)', 'FontSize', 16);
 xlabel('t');
 ylabel('x(t)');
+xlim([0 0.1])
+sound(x_t, fs)
 %
 grid on
 axis tight

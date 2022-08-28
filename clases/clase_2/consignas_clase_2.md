@@ -6,7 +6,7 @@
    c) x[n] = cos[5pi/4n+pi/2]  
    d) x[n]=sen[4pin]
 2. Utilizar Matlab para graficar la forma de la funcion y verificar el periodo calculado junto con la tase temporal (tener cuidado al elegir Ts y la cantidad de ciclos a visualizar)
-3. Considerar Fs=8000Hz para discretizar la senal a). Reproducirla audiblemente y luego duplicar su frecuencia �Que se oye?
+3. Considerar Fs=8000Hz para discretizar la senal a). Reproducirla audiblemente y luego duplicar su frecuencia ¿Que se oye?
 
 ## Consigna de la clase #B (10 minutos)
 

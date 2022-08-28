@@ -53,23 +53,17 @@ dt_b = 3 * pi / 1000;
 t_continuo_b = 0:dt_b:3 * pi;
 Xt_b = sin((2/3) * (t_continuo_b) + (pi / 4));
 
-
 % Oo=5/4*pi - Fo=5/8 - No=8/5k
-
+%
 dn_c = (8/5)/8;
 n_discreto_c = 0:dn_c:8/5;
 Xn_c = cos((5 * pi / 4) * (n_discreto_c) + (pi / 2));
-
+%
 dn_d = 1/2;
-n_discreto_d = 0:dn_d:20;
+n_discreto_d = 0:dn_d:1;
 Xn_d = sin(4*pi*n_discreto_d);
 
-dc_d = 1;
-n_continuo_d = 0:dc_d:140;
-Xc_d = sin(4*pi*n_continuo_d);
-
 %% Graficos
-
 sgtitle('Consigna de la clase #A')
 %
 grid on
@@ -99,11 +93,9 @@ ylabel('x[n]');
 grid on
 axis tight
 subplot(3, 2, 4);
-stem(n_discreto_d, Xn_d, 'r--');
-hold on
-% plot(n_continuo_d, Xc_d, 'b:');
+stem(n_discreto_d, Xn_d, 'b--');
+xlim([0 1])
+ylim([-1 1])
 title('x[n]=sen[4pin]');
 xlabel('n');
 ylabel('x[n]');
-
-
