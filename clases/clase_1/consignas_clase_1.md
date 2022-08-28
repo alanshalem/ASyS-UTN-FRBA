@@ -7,7 +7,7 @@ Implementar un script en Matlab que ejecute las siguientes acciones:
    de elementos
 3. Generar un nuevo vector B con los elementos mayores a 3 de A
    Se deberán colocar comentarios explicativos de cada sentencia (%)
-   Ayuda: Uitlizar el comando help de Matlab/Octave para las funciones
+   Ayuda: Utilizar el comando help de Matlab/Octave para las funciones
    randn, length, mean, max y min
 
 ## Consigna de la clase #B (15 minutos)

@@ -18,19 +18,24 @@
 %
 % *************************************************************************
 
-t = 0:0.001:4*pi;
-Sa = sin(2*t);
-Sb = cos(4*t);
+t = 0:0.001:4*pi; % Vector de tiempo
+Sa = sin(2*t); % Seno de 2t
+Sb = cos(4*t); % Coseno de 4t
 
 % Otra forma
 %calc = @(Sa,Sb) Sa+Sb;
 %calc2 = @(Sa,Sb) Sa.*Sb;
 
-[Sum, Product] = CALC(Sa, Sb);
+[Sum, Product] = CALC(Sa, Sb); % Funcion que calcula la suma y el producto elemento a elemento
 
+%% Grafico
 % Otra forma
 % plot(t,Sa,'b',t,Sb,'r',t,calc(Sa,Sb),'g',t,calc2(Sa,Sb),'m')
-plot(t,Sa,'b',t,Sb,'r',t,Sum,'g',t,Product,'m')
+plot(t,Sa,'b',t,Sb,'r',t,Sum,'g:',t,Product,'m--')
+axis tight
+grid on
 xlabel('t')
 ylabel('f(t)')
+legend('sen(2t)', 'cos(4t)', 'Sum', 'Product')
+title('Consigna de la clase #B')
 
