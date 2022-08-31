@@ -9,7 +9,9 @@ Sea la siguiente señal continua x(t) constituida por señales elementales:
 
 # Consigna de la clase #B (20 minutos) pag45
 
-1. Graficar las siguientes señales en MatLab y cal-cular numéricamente su potencia o energía segúnsea el caso:  
+1. Graficar las siguientes señales en MatLab y calcular numéricamente su potencia o energía según sea el caso:  
    a) x1(t)=e^(-|t|)
    b) x2(t)=sen(2*pi*5t)+cos(2*pi*10t)
+   c) x1[n]=(1/2)^(n)*u[n]
+   d) x2[n]=cos(pi/2*n)
 2. Verificar analíticamente la totalidad de los resultados obtenidos.
