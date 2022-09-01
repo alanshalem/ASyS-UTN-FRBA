@@ -14,7 +14,7 @@
 dt = 0.01;
 t = -6:dt:12;
 x_t = rampa(t-1) - rampa(t-2) - 2*escalon(t-3) + escalon(t-4);
-x_t_a_plus = rampa((t+2)-1)-rampa((t-2)-4) + 2*escalon((t+2)-3) + escalon((t+2)-4);
+x_t_a_plus = rampa((t+2)-1)-rampa((t+2)-2) + 2*escalon((t+2)-3) + escalon((t+2)-4);
 x_t_a_minus = rampa((t-2)-1) - rampa((t-2)-4) + 2*escalon((t-2)-3) + escalon((t-2)-4);
 x_t_b = rampa((3*t)-1) - rampa((3*t)-2) + 2*escalon((3*t)-3) + escalon((3*t)-4);
 x_t_c = rampa((-2*t+1)-1) - rampa((-2*t+1)-2) + 2*escalon((-2*t+1)-3) + escalon((-2*t+1)-4);

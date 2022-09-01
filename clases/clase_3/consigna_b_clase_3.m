@@ -15,7 +15,7 @@
 
 %% Resolucion
 dt = 0.01;
-t=0:dt:20;
+t=-20:dt:20;
 x1=exp(-abs(t));
 Ex1 = ENERGIA(x1, dt);
 
