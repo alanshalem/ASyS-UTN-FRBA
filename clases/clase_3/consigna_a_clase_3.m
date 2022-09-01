@@ -23,7 +23,7 @@ x_dt = diff(x_t)/dt; %dt=t(2)-t(1)
 %% Graficos
 subplot(2,1,1)
 plot(t,x_t, 'linewidth', 2);
-title('Señal Original x(t)=p(t-1)-p(t-2)-2u(t-3)+u(t-4)', 'FontSize', 16);
+title('Senal Original x(t)=p(t-1)-p(t-2)-2u(t-3)+u(t-4)', 'FontSize', 16);
 xlabel('t')
 ylabel('x(t)')
 ylim([-2 2])
@@ -39,3 +39,4 @@ plot(t(2:end),x_dt, 'linewidth', 2);
 title("Derivada x'(t)=u(t-1)-u(t-2)-2d(t-3)+d(t-4)", 'FontSize', 16);
 xlabel('t')
 ylabel('x(t)')
+ylim([-2 2])

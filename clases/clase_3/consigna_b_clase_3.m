@@ -14,32 +14,37 @@
 % ###############################################################################################
 
 %% Resolucion
-t=0:0.01:20;
+dt = 0.01;
+t=0:dt:20;
 x1=exp(-abs(t));
+Ex1 = ENERGIA(x1, dt);
+
 x2=sin(2*pi*5*t)+cos(2*pi*10*t);
-x3=(1/2).^(t)*escalon(t);
-x4=cos(pi/2*t);
+x3=((1/2).^(t).*escalon(t));
+x4=cos((pi/2)*t);
 
 %% Graficos
-figure(1)
+subplot(2,2,1)
 plot(t,x1)
 title('x1(t)')
 xlabel('t')
 ylabel('x1(t)')
 
-figure(2)
+subplot(2,2,2)
 plot(t,x2)
 title('x2(t)')
 xlabel('t')
 ylabel('x2(t)')
+xlim([0 2])
+ylim([-2.5 1.5])
 
-figure(3)
+subplot(2,2,3)
 plot(t,x3)
 title('x3(t)')
 xlabel('t')
 ylabel('x3(t)')
 
-figure(4)
+subplot(2,2,4)
 plot(t,x4)
 title('x4(t)')
 xlabel('t')
