@@ -1,0 +1,1 @@
+% 2. Generar dos funciones en MatLab, de modo de simular los sistemas c) y d) (Sc[x(t)]) y Sd[x(t)]) y determinar si se los puede considerar LIT, analizando sus respuestas a entradas tipo escalón u(t).

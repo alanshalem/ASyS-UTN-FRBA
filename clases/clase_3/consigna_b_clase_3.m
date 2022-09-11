@@ -62,7 +62,7 @@ xlabel('t');
 ylabel('x2(t)');
 % Para utilizar la funcion potencia es necesario pasarle un solo periodo
 % Esta es la forma de aislar un periodo
-tt = 0:dt_x2:T0 - dt;
+tt = 0:dt_x2:T0 - dt_x2;
 % Otra forma mas engorrosa.
 x2_n_zero = -t_x2(1) / dt_x2 + 1;
 x2_n_end = x2_n_zero + T0 / dt_x2 - 1;
@@ -87,9 +87,14 @@ ylabel('x3[n]');
 %% d)
 dn = 1;
 n = -15:dn:16;
-fo = pi / 2;
+fo = 1/4;
+% fo=k*No, entonces necesito un ciclo de mi se�al continua para obtener 4 muestras de la se�al discreta antes de que se repita el patron
+% Que lo constata la verificacion analitica.
+wo = 2 * pi * fo; % wo tiene que ser igual a pi/2 porque me lo da el ejercicio
 To = 1 / fo;
-x4 = cos((fo) * n);
+% Aca estoy aislando un periodo
+tn = 0:dn:To - dn;
+x4 = cos((wo) * n);
 POT4 = POTENCIA(x4, To, dn);
 
 % Grafico d)
